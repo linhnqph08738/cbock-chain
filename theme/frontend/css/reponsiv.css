@@ -1,0 +1,400 @@
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    -webkit-object-fit: cover;
+    -moz-object-fit: cover;
+    -ms-object-fit: cover;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+@media screen and (max-width: 1600px) {
+    html,
+    body {
+        text-align: center;
+        font-size: 14px;
+        line-height: 1.618;
+    }
+    .contactus {
+        width: 100%;
+        display: block;
+        margin-top: 300px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    html,
+    body {
+        text-align: center;
+        font-size: 14px;
+        line-height: 1.618;
+    }
+    .icon {
+        position: fixed;
+        top: 10%;
+        right: 3%;
+        z-index: 99;
+    }
+    .contactus {
+        width: 100%;
+        display: block;
+        margin-top: 350px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    html,
+    body {
+        font-size: 14px;
+    }
+    .abouts .s-content {
+        font-size: 1.75rem;
+    }
+    .logo .sub {
+        font-size: 2.1875rem;
+    }
+    .header-lt ul li {
+        display: inline-block;
+        padding-left: 0.9333rem;
+        margin-top: 0.4667rem;
+    }
+    .header-lt ul li a {
+        font-size: 1.25rem;
+        color: #00587a;
+        text-transform: uppercase;
+    }
+    .ourexpertise .item {
+        min-height: 26.6667rem;
+        max-height: 26.6667rem;
+    }
+    .ourexpertise .item .item_1 {
+        visibility: visible;
+        transition: 0.3s;
+        min-height: 26.6667rem;
+        max-height: 26.6667rem;
+    }
+    .ourexpertise .item .item_1 img {
+        min-height: 26.6667rem;
+        max-height: 26.6667rem;
+    }
+    .icon {
+        top: 10%;
+        right: 3%;
+    }
+    .logo-ft .images {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .logo-ft .sub {
+        font-size: 1.75em;
+        font-weight: 500;
+        color: #ede5d0;
+    }
+    .blog .card-title .title {
+        font-size: 18px;
+    }
+    .detail_blog .title {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    html,
+    body {
+        font-size: 14px;
+    }
+    .header-lt {
+        display: none;
+    }
+    .toggle-menu {
+        display: block;
+    }
+    .toggle-menu i {
+        left: 0;
+    }
+    .icon {
+        top: 10%;
+        right: 3%;
+    }
+    nav ul {
+        padding: 0;
+        display: block;
+    }
+    .ourexpertise .item .item_1 img {
+        min-height: 350px;
+        max-height: 350px;
+    }
+    .ourexpertise .item .item_1 {
+        visibility: visible;
+        transition: 0.3s;
+        min-height: 350px;
+        max-height: 350px;
+    }
+    .ourexpertise .item {
+        min-height: 350px;
+        max-height: 350px;
+    }
+    .ourexpertise .item {
+        min-height: 350px;
+        max-height: 350px;
+    }
+    nav li a {
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+    .blog .card-title .title {
+        font-size: 18px;
+    }
+    .card-body {
+        padding: 10px;
+    }
+    .blog .card-text {
+        -webkit-line-clamp: 3;
+        font-size: 14px;
+    }
+    .detail_blog .title {
+        font-size: 26px;
+        padding-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html,
+    body {
+        font-size: 13px;
+    }
+    nav ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    nav li {
+        margin-top: 1px;
+    }
+    nav li a {
+        font-size: 1.5rem;
+    }
+    .scroll-icon {
+        display: none;
+    }
+    /* .header-top {
+    display: none;
+  } */
+    .logo-ft .sub {
+        font-size: 1.75em;
+        font-weight: 500;
+        color: #ede5d0;
+    }
+    .contactus {
+        width: 100%;
+        display: block;
+        margin-top: 50px;
+    }
+    .blog .card-title {
+        -webkit-line-clamp: 3;
+    }
+    .blog .card-title .title {
+        font-size: 20px;
+    }
+    .blog .link {
+        margin-top: 30px;
+    }
+    .detail_blog .title {
+        font-size: 26px;
+        padding-bottom: 15px;
+    }
+    .detail_blog .content .icon {
+        font-size: 14px;
+    }
+    .detail_blog {
+        padding-top: 150px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .open-menu~nav {
+        padding: 20px 0;
+    }
+    nav li a {
+        padding: 3px;
+    }
+    .contactus .text .sub {
+        display: block;
+        margin-top: 25px;
+        font-size: 1.4rem;
+        color: #ede5d0;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+    }
+    #fp-nav.fp-right {
+        display: none !important;
+    }
+    .form-control {
+        border: 1px solid #fff;
+        height: 50px;
+        background: none;
+        border-radius: 15px;
+        color: #fff;
+        padding-left: 16px;
+        font-size: 1rem;
+    }
+    .form-contact textarea {
+        height: 100px;
+        width: 100%;
+        border-radius: 15px;
+        padding: 15px;
+        font-size: 1rem;
+    }
+    .ourexpertise .item {
+        min-height: 480px;
+        max-height: 480px;
+    }
+    .ourexpertise .item .item_1 {
+        min-height: 480px;
+        max-height: 480px;
+    }
+    .ourexpertise .item .item_1 img {
+        min-height: 480px;
+        max-height: 480px;
+    }
+    .logo-ft .sub {
+        font-size: 1.6em;
+    }
+    .contactus .text .title {
+        font-size: 1.5rem;
+    }
+    .contactus .text .title {
+        font-size: 1.9rem;
+        font-weight: 700;
+        color: #ede5d0;
+        padding-bottom: 0.625rem;
+        border-bottom: 0.125rem solid #ede5d0;
+        text-transform: uppercase;
+    }
+    nav#menu span {
+        height: 0.5375rem;
+        width: 0.5375rem;
+        background: #025b7b;
+        border-radius: 62.4375rem;
+        position: relative;
+        z-index: 1;
+    }
+    .icon {
+        top: 8%;
+        right: 3%;
+    }
+    .panel {
+        height: auto;
+        display: block;
+        align-items: center;
+        font-family: sans-serif;
+        justify-content: center;
+        padding: 150px 0;
+    }
+    .logo .sub {
+        font-size: 2rem;
+        font-weight: 600;
+        color: #025b7b;
+        margin-top: 1rem;
+    }
+    .logo .images {
+        display: block;
+        padding-bottom: 0.5rem;
+    }
+    nav#menu span.active {
+        height: 1rem;
+        width: 1rem;
+        background: #b5b9bb;
+        border-radius: 62.4375rem;
+        position: relative;
+        z-index: 1;
+    }
+    .ourexpertise .title {
+        font-size: 2rem;
+    }
+    .abouts .s-content {
+        font-size: 1.81rem;
+        word-spacing: -1px;
+    }
+    .contactus {
+        width: 100%;
+        display: block;
+        margin-top: 50px;
+        margin-bottom: -50px;
+    }
+    .form-contact .content .content-sub {
+        margin-top: 0.625rem;
+        display: block;
+        font-size: 1.3rem;
+    }
+    .logo {
+        margin-top: 150px;
+    }
+    .hearder-logo .images {
+        padding-top: 0px;
+    }
+    .toggle-menu {
+        top: 1.5rem;
+        right: 0.5rem;
+    }
+    .blog_title {
+        padding-top: 90px;
+    }
+    .detail_blog {
+        padding-top: 100px;
+    }
+    .detail_blog .title {
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    html,
+    body {
+        font-size: 12px;
+    }
+    .logo-ft {
+        margin-top: 4.25em;
+    }
+    .logo-ft .images {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .logo-ft .sub {
+        font-size: 1.6rem;
+    }
+    .logo .sub {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: #025b7b;
+        margin-top: 1rem;
+    }
+    .blog .card-title .title {
+        font-size: 18px;
+    }
+    .blog .link {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        width: 80%;
+        max-width: 100%;
+        margin: 1.75rem auto;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+}
